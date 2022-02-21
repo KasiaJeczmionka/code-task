@@ -14,8 +14,6 @@ export type TableProps = Array<{
 
 export class TableStorage {
 
-    dataTable: TableProps = [];
-
     searchBy = '';
 
     constructor() {
