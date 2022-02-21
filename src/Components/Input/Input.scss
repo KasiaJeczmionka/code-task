@@ -1,0 +1,23 @@
+.input {
+    margin: .5rem;
+    display: flex;
+    min-width: 50%;
+    max-width: 100%;
+    position: relative;
+    &-name {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+    &-input {
+        width: 50%;
+        padding: 1rem;
+        background-color: unset;
+        border: 1px solid darkgray;
+        border-radius: .5rem;
+        transition: ease-in-out .2s;
+        &:focus, &:hover {
+            background-color: white;
+            border-radius: .5rem;
+        }
+    }
+}
